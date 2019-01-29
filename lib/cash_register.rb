@@ -13,10 +13,10 @@ class CashRegister
   
   def apply_discount
     if @discount
-      
-    @discount = @discount/100.to_f
-    @amount_to_takeoff = (@total * @discount)
-    @total = @total - @amount_to_takeoff
+      @discount = @discount/100.to_f
+      @amount_to_takeoff = (@total * @discount)
+      @total = @total - @amount_to_takeoff
+      puts 
   end
   
   
