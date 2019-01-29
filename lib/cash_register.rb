@@ -9,6 +9,10 @@ class CashRegister
   
   def add_item(title, price, quantity = 1)
     @total += price
+    
+    if quantity > 1
+      quanity.times do 
+        @total += price 
   end
   
   
