@@ -1,9 +1,9 @@
 class CashRegister
   
-  def initialize(employee = 0)
+  def initialize(discount = 0)
     @total = 0
-    if employee != 0
-      @total = employee
+    if discount != 0
+      @total = discount
     end
   end
   
