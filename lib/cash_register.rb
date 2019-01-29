@@ -1,6 +1,6 @@
 class CashRegister
   
-  def initialize(employee = 0)
+  def initialize(employee)
     @total = employee
   end
   
