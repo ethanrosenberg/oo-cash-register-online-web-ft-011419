@@ -17,6 +17,7 @@ class CashRegister
       @amount_to_takeoff = (@total * @discount)
       @total = @total - @amount_to_takeoff
       puts "After the discount, the total comes to $#{@total}"
+    end
   end
   
   
